@@ -1,0 +1,71 @@
+{
+    "rust-client.rlsPath": "/home/adam/projects/rls/target/debug/rls",
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "keyboard.dispatch": "keyCode",
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "vim.leader": ",",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<Space>"
+            ],
+            "after": [
+                ":"
+            ]
+        },
+        {
+            "before": [
+                "<Enter>"
+            ],
+            "commands": [
+                ":w"
+            ]
+        },
+        {
+            "before": [
+                "-"
+            ],
+            "after": [
+                "$"
+            ]
+        },
+        {
+            "before": [
+                "_"
+            ],
+            "after": [
+                "0"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "d"
+            ],
+            "commands": [
+                "editor.action.revealDefinition"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "d"
+            ],
+            "commands": [
+                "editor.action.showHover"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "o"
+            ],
+            "commands": [
+                "workbench.action.output.toggleOutput"
+            ]
+        }
+    ],
+    "window.zoomLevel": 0
+}

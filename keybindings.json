@@ -1,0 +1,19 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "alt+j",
+        "command": "workbench.action.togglePanel"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "-workbench.action.togglePanel"
+    },
+    {
+        "key": "alt+p",
+        "command": "workbench.action.togglePanelPosition"
+    },
+    {
+        "key": "alt+k",
+        "command": "workbench.action.terminal.focusNext"
+    }
+]
