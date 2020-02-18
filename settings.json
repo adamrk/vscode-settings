@@ -1,5 +1,6 @@
 {
-    "rust-client.rlsPath": "/home/adam/projects/rls/target/debug/rls",
+    "workbench.editor.enablePreview": false,
+    "rust-analyzer.raLspServerPath": "ra_lsp_server",
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
     "keyboard.dispatch": "keyCode",
@@ -60,10 +61,28 @@
         {
             "before": [
                 "<leader>",
+                "r"
+            ],
+            "commands": [
+                "editor.action.goToReferences"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
                 "o"
             ],
             "commands": [
                 "workbench.action.output.toggleOutput"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "t"
+            ],
+            "commands": [
+                "workbench.action.showAllSymbols"
             ]
         }
     ],

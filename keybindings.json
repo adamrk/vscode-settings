@@ -15,5 +15,10 @@
     {
         "key": "alt+k",
         "command": "workbench.action.terminal.focusNext"
+    },
+    {
+        "key": "enter",
+        "command": "-rust-analyzer.onEnter",
+        "when": "editorTextFocus && !suggestWidgetVisible && editorLangId == 'rust'"
     }
 ]
