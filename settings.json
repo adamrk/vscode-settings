@@ -1,6 +1,6 @@
 {
     "workbench.editor.enablePreview": false,
-    "rust-analyzer.raLspServerPath": "ra_lsp_server",
+    "rust-analyzer.serverPath": "rust-analyzer",
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
     "keyboard.dispatch": "keyCode",
