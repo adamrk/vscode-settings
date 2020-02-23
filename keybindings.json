@@ -9,10 +9,6 @@
         "command": "-workbench.action.togglePanel"
     },
     {
-        "key": "alt+p",
-        "command": "workbench.action.togglePanelPosition"
-    },
-    {
         "key": "alt+k",
         "command": "workbench.action.terminal.focusNext"
     },
@@ -20,5 +16,26 @@
         "key": "enter",
         "command": "-rust-analyzer.onEnter",
         "when": "editorTextFocus && !suggestWidgetVisible && editorLangId == 'rust'"
-    }
+    },
+    {
+        "key": "ctrl+w left",
+        "command": "workbench.action.focusLeftGroup"
+    },
+    {
+        "key": "ctrl+k ctrl+left",
+        "command": "-workbench.action.focusLeftGroup"
+    },
+    {
+        "key": "ctrl+w right",
+        "command": "workbench.action.focusRightGroup"
+    },
+    {
+        "key": "ctrl+k ctrl+right",
+        "command": "-workbench.action.focusRightGroup"
+    },
+    {
+        "key": "shift+alt+r",
+        "command": "rust-analyzer.run",
+        "when": "editorTextFocus && editorLangId == 'rust'"
+    },
 ]

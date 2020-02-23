@@ -6,6 +6,9 @@
     "keyboard.dispatch": "keyCode",
     "editor.formatOnSave": true,
     "editor.minimap.enabled": false,
+    "editor.fontFamily": "Inconsolata",
+    "editor.fontSize": 16.5,
+    "window.zoomLevel": 0,
     "vim.leader": ",",
     "vim.normalModeKeyBindingsNonRecursive": [
         {
@@ -52,6 +55,36 @@
         {
             "before": [
                 "<leader>",
+                "g",
+                "t",
+            ],
+            "commands": [
+                "editor.action.goToTypeDefinition"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "p",
+                "d",
+            ],
+            "commands": [
+                "editor.action.peekDefinition"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "p",
+                "t",
+            ],
+            "commands": [
+                "editor.action.peekTypeDefinition"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
                 "d"
             ],
             "commands": [
@@ -88,6 +121,7 @@
         {
             "before": [
                 "<leader>",
+                "<leader>",
                 "n"
             ],
             "commands": [
@@ -97,12 +131,49 @@
         {
             "before": [
                 "<leader>",
+                "<leader>",
                 "p"
             ],
             "commands": [
                 "editor.action.marker.prevInFiles"
             ]
         },
+        {
+            "before": [
+                "<leader>",
+                "c",
+                "e",
+            ],
+            "commands": [
+                "workbench.files.action.collapseExplorerFolders"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "s",
+            ],
+            "commands": [
+                "workbench.action.toggleSidebarVisibility"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "<RightArrow>",
+            ],
+            "commands": [
+                "workbench.action.focusRightGroup"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "<LeftArrow>",
+            ],
+            "commands": [
+                "workbench.action.focusLeftGroup"
+            ]
+        },
     ],
-    "window.zoomLevel": 0
 }
